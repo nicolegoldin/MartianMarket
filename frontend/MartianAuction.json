@@ -51,7 +51,13 @@
 	},
 	{
 		"constant": false,
-		"inputs": [],
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "sender",
+				"type": "address"
+			}
+		],
 		"name": "auctionEnd",
 		"outputs": [],
 		"payable": false,
@@ -124,7 +130,7 @@
 		"name": "highestBidder",
 		"outputs": [
 			{
-				"internalType": "address",
+				"internalType": "address payable",
 				"name": "",
 				"type": "address"
 			}
